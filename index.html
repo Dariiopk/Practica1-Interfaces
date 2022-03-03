@@ -7,6 +7,52 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Hola mundo</h1>
+        <form action="" >
+            <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" title='Introduzca
+            su nombre' autocomplete="given-name" required/>
+            </p>
+
+            <p>
+                <label for="primerApellido">Primer apellido:</label>
+                <input type="text" name="primerApellido" id="primerApellido" title='Introduzca
+                su primer apellido' autocomplete="family-name" required/>
+            </p>
+
+            <p>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" name="fecha" id="fecha" 
+                 autocomplete="bday" required/>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" title='Introduzca
+                su email' autocomplete="email" required/>
+            </p>
+
+            <p>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" title='Introduzca
+                su telefono' autocomplete="tel" required/>
+            </p>
+
+            <p>
+                <label for="password">Contraseña:</label>
+                <input type="password" name="password" id="password" title='Introduzca
+                su contraseña' autocomplete="current-password" required/>
+            </p>
+
+            <p>
+                <label for="colfav">Color favorito:</label>
+                <input type="color" name="colfav" id="colfav" />
+            </p>
+
+            <p>
+                <input type="submit" name="submit" id="submit" />
+            </p>
+
+            </form>
 </body>
 </html>
